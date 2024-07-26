@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DavidAstudilloComplementario
+build_property.ProjectDir = C:\Users\antho\source\repos\DavidAstudilloComplementario\DavidAstudilloComplementario\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/antho/source/repos/DavidAstudilloComplementario/DavidAstudilloComplementario/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DavidAstudilloComplementario.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/antho/source/repos/DavidAstudilloComplementario/DavidAstudilloComplementario/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DavidAstudilloComplementario.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/antho/source/repos/DavidAstudilloComplementario/DavidAstudilloComplementario/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DavidAstudilloComplementario.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/antho/source/repos/DavidAstudilloComplementario/DavidAstudilloComplementario/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DavidAstudilloComplementario.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/antho/source/repos/DavidAstudilloComplementario/DavidAstudilloComplementario/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DavidAstudilloComplementario.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/antho/source/repos/DavidAstudilloComplementario/DavidAstudilloComplementario/Views/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DavidAstudilloComplementario.Views.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Login.xaml
+
+[C:/Users/antho/source/repos/DavidAstudilloComplementario/DavidAstudilloComplementario/Views/vActEliminar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DavidAstudilloComplementario.Views.vActEliminar.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\vActEliminar.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\vActEliminar.xaml
+
+[C:/Users/antho/source/repos/DavidAstudilloComplementario/DavidAstudilloComplementario/Views/vAgregar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DavidAstudilloComplementario.Views.vAgregar.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\vAgregar.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\vAgregar.xaml
+
+[C:/Users/antho/source/repos/DavidAstudilloComplementario/DavidAstudilloComplementario/Views/vEstudiante.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DavidAstudilloComplementario.Views.vEstudiante.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\vEstudiante.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\vEstudiante.xaml

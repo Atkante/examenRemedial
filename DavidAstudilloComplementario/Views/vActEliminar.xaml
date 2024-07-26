@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DavidAstudilloComplementario.Views.vActEliminar"
+             Title="vActEliminar">
+    <VerticalStackLayout>
+        <Label 
+ Text="Actualizar O Eliminar"
+ VerticalOptions="Center" 
+ HorizontalOptions="Center"
+ FontSize="20"/>
+
+        <Entry x:Name="txtCodigo" IsReadOnly="True"/>
+        <Entry x:Name="txtNombre"/>
+        <Entry x:Name="txtApellido"/>
+        <Entry x:Name="txtEdad" Keyboard="Numeric"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Button
+     x:Name="btnActualizar"
+     Text="Actualizar"
+            Clicked="btnActualizar_Clicked"
+     Grid.Row="0"
+     Grid.Column="0"/>
+
+            <Button
+     x:Name="btnEliminar"
+     Text="Eliminar"
+     Clicked="btnEliminar_Clicked"
+     Grid.Row="0"
+     Grid.Column="1"/>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

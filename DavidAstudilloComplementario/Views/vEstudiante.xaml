@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DavidAstudilloComplementario.Views.vEstudiante"
+             Title="vEstudiante">
+    <VerticalStackLayout
+    Spacing="20"
+    Padding="20">
+
+        <Label 
+        Text="Estudiantes"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center"
+        FontSize="20"
+        />
+
+        <Grid ColumnSpacing="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="CODIGOS" Grid.Column="0" />
+            <Label Text="NOMBRE" Grid.Column="1" />
+            <Label Text="APELLIDO" Grid.Column="2"/>
+            <Label Text="EDAD" Grid.Column="3"/>
+
+
+        </Grid>
+
+        <ListView x:Name="listaEstudiantes"  ItemSelected="listaEstudiantes_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Grid  ColumnSpacing="1">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label x:Name="lblCodigo" Text="{Binding codigo}"  Grid.Column="0"/>
+                                <Label x:Name="lblNombre" Text="{Binding nombre}"   Grid.Column="1"/>
+                                <Label x:Name="lblApellido" Text="{Binding apellido}"  Grid.Column="2"/>
+                                <Label x:Name="lblEdad" Text="{Binding edad}" Grid.Column="3"/>
+                            </Grid>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button
+        x:Name="btnAgregar"
+        Text="Agregar"
+        Clicked="btnAgregar_Clicked"
+    />
+
+    </VerticalStackLayout>
+</ContentPage>
